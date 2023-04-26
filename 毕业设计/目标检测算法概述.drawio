@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T13:04:25.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="30WYy1VECNbNUlR9Yb06" version="21.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T13:36:04.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="0FDVeV_ePFY20rEAxJpk" version="21.2.2" type="github" pages="2">
   <diagram name="第 1 页" id="uMmMEYMXZL35tdkPM8nb">
-    <mxGraphModel dx="1434" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,6 +30,41 @@
         </mxCell>
         <mxCell id="6GPU8laWg9fI6Lf-jTq9-10" value="基于回归的目标检测算法:RRC detection、Deformable CNN、YOLO等算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="440" width="180" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Os6JV_deXEREtpR9FrM3" name="传统目标检测">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e2hbFfjTnP9y03hA0iZc-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e2hbFfjTnP9y03hA0iZc-1" target="e2hbFfjTnP9y03hA0iZc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2hbFfjTnP9y03hA0iZc-1" value="输入指定图像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2hbFfjTnP9y03hA0iZc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e2hbFfjTnP9y03hA0iZc-2" target="e2hbFfjTnP9y03hA0iZc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2hbFfjTnP9y03hA0iZc-2" value="提取候选区域" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2hbFfjTnP9y03hA0iZc-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e2hbFfjTnP9y03hA0iZc-4" target="e2hbFfjTnP9y03hA0iZc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2hbFfjTnP9y03hA0iZc-4" value="候选区域特征提取" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="524.5" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2hbFfjTnP9y03hA0iZc-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e2hbFfjTnP9y03hA0iZc-6" target="e2hbFfjTnP9y03hA0iZc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2hbFfjTnP9y03hA0iZc-6" value="分类器进行分类" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2hbFfjTnP9y03hA0iZc-8" value="检测结果输出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="354" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
