@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T09:45:13.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="qpWzALKIZMcxTIwinPAi" version="21.2.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-28T13:10:38.966Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="3FUn9FIEaXDmXlvqpnvS" version="21.2.2" type="github" pages="4">
   <diagram name="总图像" id="jyMRRlD6wiFaFwituv-O">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -115,13 +115,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4dcQm-ezIvb3B3MkGFrk" name="总功能">
-    <mxGraphModel dx="819" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="600" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vh4veT3ePArUS15KLVob-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vh4veT3ePArUS15KLVob-6" target="vh4veT3ePArUS15KLVob-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="vh4veT3ePArUS15KLVob-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vh4veT3ePArUS15KLVob-6" target="vh4veT3ePArUS15KLVob-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -187,31 +184,28 @@
         <mxCell id="vh4veT3ePArUS15KLVob-12" value="垃圾识别" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
           <mxGeometry x="250" y="530" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vh4veT3ePArUS15KLVob-14" value="G&lt;br&gt;P&lt;br&gt;S&lt;br&gt;信息获取" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
+        <mxCell id="vh4veT3ePArUS15KLVob-14" value="当前&lt;br&gt;信息获取" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
           <mxGeometry x="300" y="530" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vh4veT3ePArUS15KLVob-15" value="垃圾信息上传" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
           <mxGeometry x="350" y="530" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vh4veT3ePArUS15KLVob-22" value="记录信息" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
-          <mxGeometry x="740" y="530" width="130" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="vh4veT3ePArUS15KLVob-23" value="处理图像" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
-          <mxGeometry x="790" y="530" width="130" height="30" as="geometry" />
+          <mxGeometry x="750" y="530" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vh4veT3ePArUS15KLVob-24" value="制作接口" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
-          <mxGeometry x="840" y="530" width="130" height="30" as="geometry" />
+        <mxCell id="vh4veT3ePArUS15KLVob-24" value="接口" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
+          <mxGeometry x="830" y="530" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vh4veT3ePArUS15KLVob-29" value="用户登录" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
           <mxGeometry x="420" y="530" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vh4veT3ePArUS15KLVob-30" value="用户个人信息显示" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
+        <mxCell id="vh4veT3ePArUS15KLVob-30" value="用户资料" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
           <mxGeometry x="470" y="530" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vh4veT3ePArUS15KLVob-31" value="用户信息列表显示" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
+        <mxCell id="vh4veT3ePArUS15KLVob-31" value="用户管理模块" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
           <mxGeometry x="520" y="530" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vh4veT3ePArUS15KLVob-32" value="运行次数显示" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
+        <mxCell id="vh4veT3ePArUS15KLVob-32" value="任务管理模块" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
           <mxGeometry x="570" y="530" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vh4veT3ePArUS15KLVob-33" value="垃圾具体信息显示" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
@@ -220,6 +214,14 @@
         <mxCell id="vh4veT3ePArUS15KLVob-39" value="其它信息显示" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;verticalAlign=middle;horizontal=0;spacing=20;" vertex="1" parent="1">
           <mxGeometry x="670" y="530" width="130" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GcK8TIaIOsJRhlyLHinz" name="总流程图">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
